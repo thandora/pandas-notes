@@ -1,0 +1,6 @@
+venv
+data
+.ipynb_checkpoints
+# Test files
+misc
+script.py
