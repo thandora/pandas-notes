@@ -8,9 +8,9 @@ This notes uses pandas 2.0 library and the 2022 stackoverflow dev survey ([downl
 
 ## TODO - in order of priority
 
-- Finish remaining sections (7 onwards)
-- welp. pandas docs use indexes for referring to the plural of indices. I used indices. Replace all indices.
+- Finish remaining sections (9 onwards)
 - Convert comments to md for pandas_02 and pandas_03
+- Add example for adding columns using .concat and adding rows using indexing for pandas_06.
 
 ## Table of Contents
 
@@ -37,3 +37,25 @@ How to read: index will refer to the suffix of the .ipynb file.
 - **05a - Modifying Data in DataFrames and Series**
   - Assigning column labels
   - Updating row and column data
+- **06 - Adding and Removing Columns and Rows**
+  - Adding columns and rows
+    - Using indexing
+    - Using .concat()
+  - Removing columns and rows
+    - Using .drop()
+- **07a - Sorting Data**
+  - Sorting single column or row using .sort_values()
+  - Sorting multiple columns or rows using .sort_values()
+  - Sorting using .nlargest() and .nsmallest()
+- **07b - Sorting Examples on Real Data**
+- **08 - Grouping and Aggregating Data**
+  - Aggregating data
+    - Using .describe()
+    - Using .value_counts()
+    - Using other methods
+  - Grouping Data
+    - groupby objects
+    - Applying methods on groupby objects
+    - Grouping functions using the .aggregate() method
+  - Examples on exploring data
+- **09 - Cleaning and Handling Missing Values (wip)**
