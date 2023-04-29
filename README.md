@@ -4,7 +4,9 @@ This is my work-in-progress personal notes for the pandas library for Python.
 
 ## Requirements
 
-This notes uses pandas 2.0 library and the 2022 stackoverflow dev survey ([download survey](https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2022.zip))
+This notes uses pandas 2.0 library and the 2022 stackoverflow dev survey ([download survey](https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2022.zip)).  
+To install pandas:  
+`pip install pandas==2.0.0`
 
 ## TODO - in order of priority
 
@@ -32,6 +34,8 @@ How to read: index will refer to the suffix of the .ipynb file.
   - Setting and resetting index
 - **04a - Filtering Data in DataFrame (and series?)**
   - Creating filters
+    - Using .isin()
+    - Using .contains()
   - Applying filters
 - **04b - Filtering Examples on Real Data**
 - **05a - Modifying Data in DataFrames and Series**
@@ -58,4 +62,12 @@ How to read: index will refer to the suffix of the .ipynb file.
     - Applying methods on groupby objects
     - Grouping functions using the .aggregate() method
   - Examples on exploring data
-- **09 - Cleaning and Handling Missing Values (wip)**
+- **09a - Cleaning and Handling Missing Values**
+  - What are missing values?
+  - Handling missing values
+    - By deletion - using .dropna()
+    - By imputation - using .fillna()
+  - Handling custom null values using .replace()
+  - Converting data type using .astype()
+  - Viewing dropped values using filters
+- **09b - Handling Missing Values on Real Data**
