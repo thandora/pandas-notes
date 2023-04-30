@@ -1,5 +1,5 @@
 venv
-data
+survey_results*
 .ipynb_checkpoints
 # Test files
 misc
