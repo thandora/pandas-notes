@@ -37,6 +37,7 @@ How to read: index will refer to the suffix of the .ipynb file.
     - Using .isin()
     - Using .contains()
   - Applying filters
+  - Filter with multiple conditions using &
 - **04b - Filtering Examples on Real Data**
 - **05a - Modifying Data in DataFrames and Series**
   - Assigning column labels
@@ -71,3 +72,6 @@ How to read: index will refer to the suffix of the .ipynb file.
   - Converting data type using .astype()
   - Viewing dropped values using filters
 - **09b - Handling Missing Values on Real Data**
+- **10a - Dates and Time Series Data**
+  - Converting to datetime object
+  - Loading as datetime object
