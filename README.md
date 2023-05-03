@@ -72,6 +72,15 @@ How to read: index will refer to the suffix of the .ipynb file.
   - Converting data type using .astype()
   - Viewing dropped values using filters
 - **09b - Handling Missing Values on Real Data**
-- **10a - Dates and Time Series Data**
+- **10 - Dates and Time Series Data**
   - Converting to datetime object
   - Loading as datetime object
+  - Datetime Operations
+    - Datetime and datetime Series methods
+    - Difference between comparators in filtering
+  - Timedelta Type and Operations
+    - Difference between datetimes
+    - Filtering dates
+  - Resampling
+    - Resampling a single column
+    - Resampling multiple columns with different functions
