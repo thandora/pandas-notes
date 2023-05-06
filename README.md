@@ -4,15 +4,39 @@ This is my work-in-progress personal notes for the pandas library for Python.
 
 ## Requirements
 
-This notes uses pandas 2.0 library and the 2022 stackoverflow dev survey ([download survey](https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2022.zip)).  
-To install pandas:  
+This notes uses pandas 2.0 library and various data sets, which are included except for the 2022 stackoverflow dev survey ([download survey](https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2022.zip)).
+
+**To install pandas:**  
 `pip install pandas==2.0.0`
+
+**Stackoverflow Developer Survey:**  
+Place inside the *data* folder
+
+---
+
+## Data Sets
+
+### Stackoverflow Developer Survey (Not included)
+
+Used on all chapters except chapter 10 - [Stackoverflow](https://info.stackoverflowsolutions.com/rs/719-EMH-566/imagesstack-overflow-developer-survey-2022.zip)  
+
+### Etherium time series data (Included)
+
+Used on chapter 10 - [Corey Schafer](https://github.com/CoreyMSchafer/code_snippets/tree/master/Python/Pandas/10-Datetime-Timeseries)  
+
+### Excel sample files (Included)
+
+Used on chapter 11 - [file-examples.com](https://file-examples.com/index.php/sample-documents-download/sample-xls-download/)
+
+---
 
 ## TODO - in order of priority
 
-- Finish remaining sections (9 onwards)
+- Finish remaining chapter (11)
 - Convert comments to md for pandas_02 and pandas_03
 - Add example for adding columns using .concat and adding rows using indexing for pandas_06.
+
+---
 
 ## Table of Contents
 
@@ -84,3 +108,4 @@ How to read: index will refer to the suffix of the .ipynb file.
   - Resampling
     - Resampling a single column
     - Resampling multiple columns with different functions
+- 11 - Reading and Writing Data to Different Sources
