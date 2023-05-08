@@ -46,7 +46,6 @@ How to read: index will refer to the suffix of the .ipynb file.
 - **01a - pandas Data Structures**
   - Introduction to pandas' Series and DataFrame
   - How to create a Series and DataFrame
-
 - **01b - Loading Data Set as DataFrame, Viewing DataFrame, and pandas Options**
   - Creating DataFrame from existing data file
   - Viewing DataFrame using .head() and .tail()
