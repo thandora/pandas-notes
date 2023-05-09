@@ -114,3 +114,6 @@ How to read: index will refer to the suffix of the .ipynb file.
   - Excel files (XLSX and XLS)
     - Dependencies
     - Excel worksheets
+  - JavaScript Notation Object (JSON)
+    - pandas JSON Orientation
+  - Databases (MySQL)
