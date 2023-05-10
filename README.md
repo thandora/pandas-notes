@@ -12,8 +12,6 @@ This notes uses pandas 2.0 library and various data sets, which are included exc
 **Stackoverflow Developer Survey:**  
 Place inside the *data* folder
 
----
-
 ## Data Sets
 
 ### Stackoverflow Developer Survey (Not included)
@@ -28,15 +26,11 @@ Used on chapter 10 - [Corey Schafer](https://github.com/CoreyMSchafer/code_snipp
 
 Used on chapter 11 - [file-examples.com](https://file-examples.com/index.php/sample-documents-download/sample-xls-download/)
 
----
-
 ## TODO - in order of priority
 
 - Finish remaining chapter (11)
 - Convert comments to md for pandas_02 and pandas_03
 - Add example for adding columns using .concat and adding rows using indexing for pandas_06.
-
----
 
 ## Table of Contents
 
