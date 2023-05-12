@@ -1,10 +1,12 @@
 # Pandas Library Notes
 
-This is my work-in-progress personal notes for the pandas library for Python.  
+This is my personal notes for the pandas library for Python based on Corey Schafer's [pandas playlist](https://www.youtube.com/watch?v=ZyhVh-qRZPA&list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS). These notes are upto date (not using deprecated functions used on the playlist), and is using the new pandas 2.0.0 released on April 3, 2023.  
+
+First finished version completed on May 12, 2023.
 
 ## Requirements
 
-This notes uses pandas 2.0 library and various data sets, which are included except for the 2022 stackoverflow dev survey ([download survey](https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2022.zip)).
+This notes uses pandas 2.0.0 library and various data sets, which are included except for the 2022 stackoverflow dev survey ([download survey](https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2022.zip)).
 
 **To install pandas:**  
 `pip install pandas==2.0.0`
@@ -30,11 +32,6 @@ Used on chapter 11 - [file-examples.com](https://file-examples.com/index.php/sam
 
 Used on chapter 11
 
-## TODO - in order of priority
-
-- Convert comments to md for pandas_02 and pandas_03
-- Add example for adding columns using .concat and adding rows using indexing for pandas_06.
-
 ## Table of Contents
 
 How to read: index will refer to the suffix of the .ipynb file.  
@@ -51,8 +48,8 @@ How to read: index will refer to the suffix of the .ipynb file.
   - Selecting using indexing and by dot notation.
   - Selecting usings .loc() and .iloc()
 - **03 - Index**
-  - Using index
   - Setting and resetting index
+  - Using index
 - **04a - Filtering Data in DataFrame (and series?)**
   - Creating filters
     - Using .isin()
