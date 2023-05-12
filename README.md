@@ -34,7 +34,7 @@ Used on chapter 11
 
 ## Table of Contents
 
-How to read: index will refer to the suffix of the .ipynb file.  
+Index will refer to the suffix of the .ipynb file.  
 (e.g.) **04a** means that the topic is discussed under **pandas_04a.ipynb**  
 
 - **01a - pandas Data Structures**
