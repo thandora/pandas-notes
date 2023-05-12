@@ -26,9 +26,12 @@ Used on chapter 10 - [Corey Schafer](https://github.com/CoreyMSchafer/code_snipp
 
 Used on chapter 11 - [file-examples.com](https://file-examples.com/index.php/sample-documents-download/sample-xls-download/)
 
+### SQLite sample file (Included)
+
+Used on chapter 11
+
 ## TODO - in order of priority
 
-- Finish remaining chapter (11)
 - Convert comments to md for pandas_02 and pandas_03
 - Add example for adding columns using .concat and adding rows using indexing for pandas_06.
 
@@ -110,4 +113,6 @@ How to read: index will refer to the suffix of the .ipynb file.
     - Excel worksheets
   - JavaScript Notation Object (JSON)
     - pandas JSON Orientation
-  - Databases (MySQL)
+  - Databases (SQLite)
+    - Reading SQL Database
+    - Writing to SQL Database
